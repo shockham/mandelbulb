@@ -3,7 +3,8 @@
 const int MAX_MARCHING_STEPS = 255;
 const float MIN_DIST = 0.0;
 const float MAX_DIST = 100.0;
-const float EPSILON = 0.001;
+const float EPSILON = 0.0001;
+const float N_EPSILON = 0.001;
 
 uniform vec2 resolution;
 uniform vec3 cam_pos;
@@ -64,9 +65,9 @@ vec3 ray_dir(float fieldOfView, vec2 size, vec2 fragCoord) {
 
 vec3 estimate_normal(vec3 p) {
     return normalize(vec3(
-        scene(vec3(p.x + EPSILON, p.y, p.z)) - scene(vec3(p.x - EPSILON, p.y, p.z)),
-        scene(vec3(p.x, p.y + EPSILON, p.z)) - scene(vec3(p.x, p.y - EPSILON, p.z)),
-        scene(vec3(p.x, p.y, p.z  + EPSILON)) - scene(vec3(p.x, p.y, p.z - EPSILON))
+        scene(vec3(p.x + N_EPSILON, p.y, p.z)) - scene(vec3(p.x - N_EPSILON, p.y, p.z)),
+        scene(vec3(p.x, p.y + N_EPSILON, p.z)) - scene(vec3(p.x, p.y - N_EPSILON, p.z)),
+        scene(vec3(p.x, p.y, p.z  + N_EPSILON)) - scene(vec3(p.x, p.y, p.z - N_EPSILON))
     ));
 }
 
