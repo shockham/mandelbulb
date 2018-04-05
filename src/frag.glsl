@@ -26,13 +26,13 @@ float scene(vec3 pos) {
 		// convert to polar coordinates
 		float theta = acos(z.z/r);
 		float phi = atan(z.y,z.x);
-		float Power = (1.5+sin(time/5.0))*6.0+2.0;
+		float pwr = (1.5+sin(time/5.0))*6.0+2.0;
 
-		dr =  pow( r, Power-1.0)*Power*dr + 1.0;
+		dr =  pow( r, pwr-1.0)*pwr*dr + 1.0;
 		// scale and rotate the point
-		float zr = pow( r,Power);
-		theta = theta*Power;
-		phi = phi*Power;
+		float zr = pow( r,pwr);
+		theta = theta*pwr;
+		phi = phi*pwr;
 
 		// convert back to cartesian coordinates
 		z = zr*vec3(sin(theta)*cos(phi), sin(phi)*sin(theta), cos(theta));
