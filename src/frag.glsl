@@ -3,7 +3,7 @@
 const int MAX_MARCHING_STEPS = 255;
 const float MIN_DIST = 0.0;
 const float MAX_DIST = 100.0;
-const float EPSILON = 0.0001;
+const float EPSILON = 0.001;
 
 uniform vec2 resolution;
 uniform vec3 cam_pos;
@@ -119,7 +119,7 @@ float calc_AO(vec3 pos, vec3 nor) {
 }
 
 vec3 lighting(vec3 k_a, vec3 k_d, vec3 k_s, float alpha, vec3 p, vec3 eye) {
-    const vec3 ambientLight = 0.5 * vec3(1.0, 1.0, 1.0);
+    const vec3 ambientLight = 0.5 * vec3(1.0);
     vec3 color = ambientLight * k_a;
     vec3 normal = estimate_normal(p);
 
