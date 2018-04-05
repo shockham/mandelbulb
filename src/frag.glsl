@@ -27,7 +27,7 @@ float scene(vec3 pos) {
 		// convert to polar coordinates
 		float theta = acos(z.z/r);
 		float phi = atan(z.y,z.x);
-		float pwr = (1.5+sin(time/5.0))*6.0+2.0;
+		float pwr = 8.0-(sin(time/3.0)*3.0);
 
 		dr =  pow( r, pwr-1.0)*pwr*dr + 1.0;
 		// scale and rotate the point
