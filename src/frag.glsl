@@ -19,7 +19,7 @@ float scene(vec3 pos) {
     vec3 z = pos;
 	float dr = 1.0;
 	float r = 0.0;
-	for (int i = 0; i < 7; i++) {
+	for (int i = 0; i < 5; i++) {
 		r = length(z);
 		if (r>2.0) break;
 
@@ -121,13 +121,17 @@ float calc_AO(vec3 pos, vec3 nor) {
 vec3 lighting(vec3 k_a, vec3 k_d, vec3 k_s, float alpha, vec3 p, vec3 eye) {
     const vec3 ambientLight = 0.5 * vec3(1.0, 1.0, 1.0);
     vec3 color = ambientLight * k_a;
+    vec3 normal = estimate_normal(p);
 
-    float occ = calc_AO(p, estimate_normal(p));
+    color = mix(color, normal, 0.7);
+    color = mix(color, vec3(1.0), 0.5);
+
+    float occ = calc_AO(p, normal);
 
     vec3 light1Pos = vec3(4.0 * sin(time),
                           5.0,
                           4.0 * cos(time));
-    vec3 light1Intensity = vec3(0.4, 0.4, 0.4);
+    vec3 light1Intensity = vec3(0.4);
 
     color += phong_contrib(k_d, k_s, alpha, p, eye,
                                   light1Pos,
