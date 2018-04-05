@@ -19,14 +19,14 @@ float scene(vec3 pos) {
     vec3 z = pos;
 	float dr = 1.0;
 	float r = 0.0;
-	for (int i = 0; i < 6 ; i++) {
+	for (int i = 0; i < 7; i++) {
 		r = length(z);
 		if (r>2.0) break;
 
 		// convert to polar coordinates
 		float theta = acos(z.z/r);
 		float phi = atan(z.y,z.x);
-		float Power = smoothstep(0.0, 1.0, (1.0 + sin(time/5.0)) / 2.0)*6.0+2.0;
+		float Power = (1.5+sin(time/5.0))*6.0+2.0;
 
 		dr =  pow( r, Power-1.0)*Power*dr + 1.0;
 		// scale and rotate the point
