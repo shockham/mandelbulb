@@ -25,19 +25,14 @@ float scene(vec3 pos) {
 		if (r>2.0) break;
 
 		// convert to polar coordinates
-		float theta = acos(z.z/r);
-		float phi = atan(z.y,z.x);
-		float pwr = 8.0-(sin(time/3.0)*3.0);
+		float pwr = 8.0;
+        float t = 8.0-sin(time/3.0)*3.0;
+		float wo = acos(z.z/r) * t;
+		float wi = atan(z.y,z.x) * pwr;
 
-		dr =  pow( r, pwr-1.0)*pwr*dr + 1.0;
-		// scale and rotate the point
-		float zr = pow( r,pwr);
-		theta = theta*pwr;
-		phi = phi*pwr;
+		dr =  pow(r, pwr-1.0)*pwr*dr + 1.0;
 
-		// convert back to cartesian coordinates
-		z = zr*vec3(sin(theta)*cos(phi), sin(phi)*sin(theta), cos(theta));
-		z+=pos;
+		z = pos + pow(r, pwr-1.0) * vec3(sin(wo)*cos(wi), sin(wi)*sin(wo), cos(wo));
 	}
 	return 0.5*log(r)*r/dr;
 }
