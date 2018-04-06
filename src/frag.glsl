@@ -27,7 +27,7 @@ float scene(vec3 pos) {
 		// convert to polar coordinates
 		float pwr = 8.0;
         float t = 8.0-sin(time/3.0)*3.0;
-		float wo = acos(z.z/r) * t;
+		float wo = acos(z.z/r) * t + time;
 		float wi = atan(z.y,z.x) * pwr;
 
 		dr =  pow(r, pwr-1.0)*pwr*dr + 1.0;
