@@ -638,7 +638,7 @@ dependencies = [
 ]
 
 [[package]]
-name = "mandlebulb"
+name = "mandelbulb"
 version = "0.1.0"
 dependencies = [
  "caper 0.10.0 (git+https://github.com/shockham/caper)",

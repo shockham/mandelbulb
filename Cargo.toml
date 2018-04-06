@@ -1,5 +1,5 @@
 [package]
-name = "mandlebulb"
+name = "mandelbulb"
 version = "0.1.0"
 authors = ["shockham <samuel.hockham@gmail.com>"]
 
