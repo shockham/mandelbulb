@@ -154,9 +154,9 @@ void main() {
     // The closest point on the surface to the eyepoint along the view ray
     vec3 p = cam_pos + dist * v_dir;
 
-    vec3 K_a = vec3(0.2, 0.2, 0.2);
-    vec3 K_d = vec3(0.2, 0.2, 0.2);
-    vec3 K_s = vec3(1.0, 1.0, 1.0);
+    vec3 K_a = vec3(0.2);
+    vec3 K_d = vec3(0.2);
+    vec3 K_s = vec3(1.0);
     float shininess = 20.0;
 
     vec3 color = lighting(K_a, K_d, K_s, shininess, p, cam_pos);
