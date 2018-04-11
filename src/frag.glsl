@@ -122,6 +122,8 @@ vec3 lighting(vec3 k_a, vec3 k_d, vec3 k_s, float alpha, vec3 p, vec3 eye) {
     color = mix(color, normal, 0.8);
     color = mix(color, vec3(1.0), 0.5);
     color = mix(color, vec3(1.0 - smoothstep(0.0, 0.6, distance(vec2(0.0), p.xy))), 0.8);
+    color = color * vec3(1.0, 0.5, 0.1);
+
 
     float occ = calc_AO(p, normal);
 
