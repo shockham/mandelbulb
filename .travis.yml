@@ -1,0 +1,23 @@
+language: rust
+rust:
+    - stable
+    - beta
+    - nightly
+matrix:
+    allow_failures:
+        - rust: nightly
+addons:
+    apt:
+        packages:
+            - libasound2-dev
+            - libxxf86vm-dev
+            - libosmesa6-dev
+os:
+    - linux
+    - osx
+env:
+    global:
+        - GLIUM_HEADLESS_TESTS=1
+script:
+    - cargo build --verbose
+    - cargo test --verbose -j 1
