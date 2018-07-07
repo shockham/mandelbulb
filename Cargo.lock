@@ -93,7 +93,7 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 [[package]]
 name = "caper"
 version = "0.10.0"
-source = "git+https://github.com/shockham/caper#3be7d7cd04a4eeab4de6a6fd5c5487f48924ebac"
+source = "git+https://github.com/shockham/caper#9e44f1688d25bb617d562eaa18ed5725f4618250"
 dependencies = [
  "bincode 1.0.1 (registry+https://github.com/rust-lang/crates.io-index)",
  "derive_builder 0.5.1 (registry+https://github.com/rust-lang/crates.io-index)",
