@@ -352,7 +352,7 @@ dependencies = [
 
 [[package]]
 name = "discard"
-version = "1.0.3"
+version = "1.0.4"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 
 [[package]]
@@ -1264,7 +1264,7 @@ name = "stdweb"
 version = "0.4.9"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 dependencies = [
- "discard 1.0.3 (registry+https://github.com/rust-lang/crates.io-index)",
+ "discard 1.0.4 (registry+https://github.com/rust-lang/crates.io-index)",
  "serde 1.0.79 (registry+https://github.com/rust-lang/crates.io-index)",
  "serde_json 1.0.27 (registry+https://github.com/rust-lang/crates.io-index)",
  "stdweb-derive 0.5.0 (registry+https://github.com/rust-lang/crates.io-index)",
@@ -1550,7 +1550,7 @@ dependencies = [
 "checksum deflate 0.7.18 (registry+https://github.com/rust-lang/crates.io-index)" = "32c8120d981901a9970a3a1c97cf8b630e0fa8c3ca31e75b6fd6fd5f9f427b31"
 "checksum derive_builder 0.6.0 (registry+https://github.com/rust-lang/crates.io-index)" = "583a8f76cd41ae6303aca0db4539b90b4fcb289f75467d0c3905781dc670621b"
 "checksum derive_builder_core 0.3.0 (registry+https://github.com/rust-lang/crates.io-index)" = "6fb4e6b5fb126caa298af7f9b9719ad6301eb7dd1613fd7543a4e935cef46c07"
-"checksum discard 1.0.3 (registry+https://github.com/rust-lang/crates.io-index)" = "9a9117502da3c5657cb8e2ca7ffcf52d659f00c78c5127d1ebadc2ebe76465be"
+"checksum discard 1.0.4 (registry+https://github.com/rust-lang/crates.io-index)" = "212d0f5754cb6769937f4501cc0e67f4f4483c8d2c3e1e922ee9edbe4ab4c7c0"
 "checksum dlib 0.4.1 (registry+https://github.com/rust-lang/crates.io-index)" = "77e51249a9d823a4cb79e3eca6dcd756153e8ed0157b6c04775d04bf1b13b76a"
 "checksum downcast 0.9.2 (registry+https://github.com/rust-lang/crates.io-index)" = "6c6fe31318b6ef21166c8e839e680238eb16f875849d597544eead7ec882eed3"
 "checksum downcast-rs 1.0.3 (registry+https://github.com/rust-lang/crates.io-index)" = "18df8ce4470c189d18aa926022da57544f31e154631eb4cfe796aea97051fe6c"
