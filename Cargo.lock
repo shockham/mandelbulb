@@ -101,8 +101,8 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 
 [[package]]
 name = "caper"
-version = "0.10.0"
-source = "git+https://github.com/shockham/caper#81d97e69d57b77e0d488c6a97d5c8c6aa9797972"
+version = "0.11.0"
+source = "git+https://github.com/shockham/caper#ef1df5c178bc7dbeaf0512d2557b5d894423a87f"
 dependencies = [
  "bincode 1.0.1 (registry+https://github.com/rust-lang/crates.io-index)",
  "derive_builder 0.6.0 (registry+https://github.com/rust-lang/crates.io-index)",
@@ -110,10 +110,10 @@ dependencies = [
  "genmesh 0.6.2 (registry+https://github.com/rust-lang/crates.io-index)",
  "gif 0.10.1 (registry+https://github.com/rust-lang/crates.io-index)",
  "glium 0.22.0 (registry+https://github.com/rust-lang/crates.io-index)",
- "glium_text_rusttype 0.3.1 (git+https://github.com/shockham/glium_text?branch=rusttype)",
+ "glium_text_rusttype 0.3.2 (registry+https://github.com/rust-lang/crates.io-index)",
  "image 0.20.0 (registry+https://github.com/rust-lang/crates.io-index)",
- "imgui 0.0.19-pre (git+https://github.com/shockham/imgui-rs)",
- "imgui-glium-renderer 0.0.19-pre (git+https://github.com/shockham/imgui-rs)",
+ "imgui 0.0.20 (registry+https://github.com/rust-lang/crates.io-index)",
+ "imgui-glium-renderer 0.0.20 (registry+https://github.com/rust-lang/crates.io-index)",
  "impose 0.2.0 (registry+https://github.com/rust-lang/crates.io-index)",
  "lazy_static 1.1.0 (registry+https://github.com/rust-lang/crates.io-index)",
  "nalgebra 0.16.4 (registry+https://github.com/rust-lang/crates.io-index)",
@@ -491,11 +491,11 @@ dependencies = [
 
 [[package]]
 name = "glium_text_rusttype"
-version = "0.3.1"
-source = "git+https://github.com/shockham/glium_text?branch=rusttype#007d5f6942cf137a3e431359359fa3bf3180f856"
+version = "0.3.2"
+source = "registry+https://github.com/rust-lang/crates.io-index"
 dependencies = [
  "glium 0.22.0 (registry+https://github.com/rust-lang/crates.io-index)",
- "rusttype 0.6.5 (registry+https://github.com/rust-lang/crates.io-index)",
+ "rusttype 0.7.2 (registry+https://github.com/rust-lang/crates.io-index)",
 ]
 
 [[package]]
@@ -565,26 +565,26 @@ dependencies = [
 
 [[package]]
 name = "imgui"
-version = "0.0.19-pre"
-source = "git+https://github.com/shockham/imgui-rs#7152cf5b6a03b5848b7a746f891cbe44b1f85800"
+version = "0.0.20"
+source = "registry+https://github.com/rust-lang/crates.io-index"
 dependencies = [
- "imgui-sys 0.0.19-pre (git+https://github.com/shockham/imgui-rs)",
+ "imgui-sys 0.0.20 (registry+https://github.com/rust-lang/crates.io-index)",
 ]
 
 [[package]]
 name = "imgui-glium-renderer"
-version = "0.0.19-pre"
-source = "git+https://github.com/shockham/imgui-rs#7152cf5b6a03b5848b7a746f891cbe44b1f85800"
+version = "0.0.20"
+source = "registry+https://github.com/rust-lang/crates.io-index"
 dependencies = [
  "glium 0.22.0 (registry+https://github.com/rust-lang/crates.io-index)",
- "imgui 0.0.19-pre (git+https://github.com/shockham/imgui-rs)",
- "imgui-sys 0.0.19-pre (git+https://github.com/shockham/imgui-rs)",
+ "imgui 0.0.20 (registry+https://github.com/rust-lang/crates.io-index)",
+ "imgui-sys 0.0.20 (registry+https://github.com/rust-lang/crates.io-index)",
 ]
 
 [[package]]
 name = "imgui-sys"
-version = "0.0.19-pre"
-source = "git+https://github.com/shockham/imgui-rs#7152cf5b6a03b5848b7a746f891cbe44b1f85800"
+version = "0.0.20"
+source = "registry+https://github.com/rust-lang/crates.io-index"
 dependencies = [
  "bitflags 1.0.4 (registry+https://github.com/rust-lang/crates.io-index)",
  "cc 1.0.25 (registry+https://github.com/rust-lang/crates.io-index)",
@@ -719,7 +719,7 @@ dependencies = [
 name = "mandelbulb"
 version = "0.1.0"
 dependencies = [
- "caper 0.10.0 (git+https://github.com/shockham/caper)",
+ "caper 0.11.0 (git+https://github.com/shockham/caper)",
 ]
 
 [[package]]
@@ -1149,14 +1149,6 @@ dependencies = [
 
 [[package]]
 name = "rusttype"
-version = "0.6.5"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-dependencies = [
- "rusttype 0.7.2 (registry+https://github.com/rust-lang/crates.io-index)",
-]
-
-[[package]]
-name = "rusttype"
 version = "0.7.2"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 dependencies = [
@@ -1553,7 +1545,7 @@ dependencies = [
 "checksum bitflags 1.0.4 (registry+https://github.com/rust-lang/crates.io-index)" = "228047a76f468627ca71776ecdebd732a3423081fcf5125585bcd7c49886ce12"
 "checksum block 0.1.6 (registry+https://github.com/rust-lang/crates.io-index)" = "0d8c1fef690941d3e7788d328517591fecc684c084084702d6ff1641e993699a"
 "checksum byteorder 1.2.6 (registry+https://github.com/rust-lang/crates.io-index)" = "90492c5858dd7d2e78691cfb89f90d273a2800fc11d98f60786e5d87e2f83781"
-"checksum caper 0.10.0 (git+https://github.com/shockham/caper)" = "<none>"
+"checksum caper 0.11.0 (git+https://github.com/shockham/caper)" = "<none>"
 "checksum cc 1.0.25 (registry+https://github.com/rust-lang/crates.io-index)" = "f159dfd43363c4d08055a07703eb7a3406b0dac4d0584d96965a3262db3c9d16"
 "checksum cfg-if 0.1.5 (registry+https://github.com/rust-lang/crates.io-index)" = "0c4e7bb64a8ebb0d856483e1e682ea3422f883c5f5615a90d51a2c82fe87fdd3"
 "checksum cgl 0.2.3 (registry+https://github.com/rust-lang/crates.io-index)" = "55e7ec0b74fe5897894cbc207092c577e87c52f8a59e8ca8d97ef37551f60a49"
@@ -1597,15 +1589,15 @@ dependencies = [
 "checksum gl_generator 0.9.0 (registry+https://github.com/rust-lang/crates.io-index)" = "7a795170cbd85b5a7baa58d6d7525cae6a03e486859860c220f7ebbbdd379d0a"
 "checksum gleam 0.6.2 (registry+https://github.com/rust-lang/crates.io-index)" = "24ba6539d49223f6bca4f076d9490c001bdbfe07d59cb0ad4079033c75bdc92d"
 "checksum glium 0.22.0 (registry+https://github.com/rust-lang/crates.io-index)" = "6ec8f9506ee0379c931299f280a6e06767b0dc6ac0f1890cf1cb6c30d600fca5"
-"checksum glium_text_rusttype 0.3.1 (git+https://github.com/shockham/glium_text?branch=rusttype)" = "<none>"
+"checksum glium_text_rusttype 0.3.2 (registry+https://github.com/rust-lang/crates.io-index)" = "3837d91ef2abec2c269999247a6378821b4d47c133faf91f870c74cd8b1223bd"
 "checksum glutin 0.17.0 (registry+https://github.com/rust-lang/crates.io-index)" = "a70c5fe78efbd5a3b243a804ea1032053c584510f8822819f94cfb29b2100317"
 "checksum hound 1.1.0 (registry+https://github.com/rust-lang/crates.io-index)" = "7cb2af8cad251a1869dbc6ae1ae744b849a32458be4aee82cba93481847656a8"
 "checksum ident_case 1.0.0 (registry+https://github.com/rust-lang/crates.io-index)" = "3c9826188e666f2ed92071d2dadef6edc430b11b158b5b2b3f4babbcc891eaaa"
 "checksum image 0.18.0 (registry+https://github.com/rust-lang/crates.io-index)" = "545f000e8aa4e569e93f49c446987133452e0091c2494ac3efd3606aa3d309f2"
 "checksum image 0.20.0 (registry+https://github.com/rust-lang/crates.io-index)" = "60710fd3cb40c2434451d8d5147bcf39bbb68aae0741041133e09439cb2401e3"
-"checksum imgui 0.0.19-pre (git+https://github.com/shockham/imgui-rs)" = "<none>"
-"checksum imgui-glium-renderer 0.0.19-pre (git+https://github.com/shockham/imgui-rs)" = "<none>"
-"checksum imgui-sys 0.0.19-pre (git+https://github.com/shockham/imgui-rs)" = "<none>"
+"checksum imgui 0.0.20 (registry+https://github.com/rust-lang/crates.io-index)" = "22cf9bc58a182a1fac857043ec13c5f76e84b3052eaf37d6485368b66fa9968f"
+"checksum imgui-glium-renderer 0.0.20 (registry+https://github.com/rust-lang/crates.io-index)" = "5a8012d5a1866fa27885e3d35dc9a83dab5a3f71015edfe39349f9c10320d227"
+"checksum imgui-sys 0.0.20 (registry+https://github.com/rust-lang/crates.io-index)" = "cb8d6b85a6bd832312edc3cfd767184bd6d3905883a1da4842d5417ce48e8a0f"
 "checksum impose 0.2.0 (registry+https://github.com/rust-lang/crates.io-index)" = "1f91a3bcfcdf10e82d2ed42ad6c92348b0f682ee464ee7c349226900282745f9"
 "checksum inflate 0.3.4 (registry+https://github.com/rust-lang/crates.io-index)" = "f5f9f47468e9a76a6452271efadc88fe865a82be91fe75e6c0c57b87ccea59d4"
 "checksum inflate 0.4.3 (registry+https://github.com/rust-lang/crates.io-index)" = "6f53b811ee8e2057ccf9643ca6b4277de90efaf5e61e55fd5254576926bb4245"
@@ -1672,7 +1664,6 @@ dependencies = [
 "checksum rodio 0.6.0 (registry+https://github.com/rust-lang/crates.io-index)" = "82135109701c376f94274aa396a166f59e2bd109978b0ed63b8bf87ef8bba366"
 "checksum rustc-demangle 0.1.9 (registry+https://github.com/rust-lang/crates.io-index)" = "bcfe5b13211b4d78e5c2cadfebd7769197d95c639c35a50057eb4c05de811395"
 "checksum rustc_version 0.2.3 (registry+https://github.com/rust-lang/crates.io-index)" = "138e3e0acb6c9fb258b19b67cb8abd63c00679d2851805ea151465464fe9030a"
-"checksum rusttype 0.6.5 (registry+https://github.com/rust-lang/crates.io-index)" = "320899ed15d373f4bad3c1288da0a98dd50cef5c0b2e8d21c84d327a585917c5"
 "checksum rusttype 0.7.2 (registry+https://github.com/rust-lang/crates.io-index)" = "b8eb11f5b0a98c8eca2fb1483f42646d8c340e83e46ab416f8a063a0fd0eeb20"
 "checksum ryu 0.2.6 (registry+https://github.com/rust-lang/crates.io-index)" = "7153dd96dade874ab973e098cb62fcdbb89a03682e46b144fd09550998d4a4a7"
 "checksum scoped_threadpool 0.1.9 (registry+https://github.com/rust-lang/crates.io-index)" = "1d51f5df5af43ab3f1360b429fa5e0152ac5ce8c0bd6485cae490332e96846a8"
