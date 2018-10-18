@@ -143,7 +143,7 @@ name = "cgl"
 version = "0.2.3"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 dependencies = [
- "gleam 0.6.3 (registry+https://github.com/rust-lang/crates.io-index)",
+ "gleam 0.6.4 (registry+https://github.com/rust-lang/crates.io-index)",
  "libc 0.2.43 (registry+https://github.com/rust-lang/crates.io-index)",
 ]
 
@@ -470,7 +470,7 @@ dependencies = [
 
 [[package]]
 name = "gleam"
-version = "0.6.3"
+version = "0.6.4"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 dependencies = [
  "gl_generator 0.9.0 (registry+https://github.com/rust-lang/crates.io-index)",
@@ -1587,7 +1587,7 @@ dependencies = [
 "checksum gif 0.10.1 (registry+https://github.com/rust-lang/crates.io-index)" = "dd4bca55ac1f213920ce3527ccd62386f1f15fa3f1714aeee1cf93f2c416903f"
 "checksum gif 0.9.2 (registry+https://github.com/rust-lang/crates.io-index)" = "e2e41945ba23db3bf51b24756d73d81acb4f28d85c3dccc32c6fae904438c25f"
 "checksum gl_generator 0.9.0 (registry+https://github.com/rust-lang/crates.io-index)" = "7a795170cbd85b5a7baa58d6d7525cae6a03e486859860c220f7ebbbdd379d0a"
-"checksum gleam 0.6.3 (registry+https://github.com/rust-lang/crates.io-index)" = "2260952cc0393ca6f183e1a91a035c65c85ddb02505f3d53e5a775eb05946f44"
+"checksum gleam 0.6.4 (registry+https://github.com/rust-lang/crates.io-index)" = "d6a8901d6854a992b372214fd9cce664df1a29678e362b151de0d7a4efdcd47f"
 "checksum glium 0.22.0 (registry+https://github.com/rust-lang/crates.io-index)" = "6ec8f9506ee0379c931299f280a6e06767b0dc6ac0f1890cf1cb6c30d600fca5"
 "checksum glium_text_rusttype 0.3.2 (registry+https://github.com/rust-lang/crates.io-index)" = "3837d91ef2abec2c269999247a6378821b4d47c133faf91f870c74cd8b1223bd"
 "checksum glutin 0.17.0 (registry+https://github.com/rust-lang/crates.io-index)" = "a70c5fe78efbd5a3b243a804ea1032053c584510f8822819f94cfb29b2100317"
