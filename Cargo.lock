@@ -116,7 +116,7 @@ dependencies = [
  "imgui-glium-renderer 0.0.20 (registry+https://github.com/rust-lang/crates.io-index)",
  "impose 0.2.0 (registry+https://github.com/rust-lang/crates.io-index)",
  "lazy_static 1.1.0 (registry+https://github.com/rust-lang/crates.io-index)",
- "nalgebra 0.16.7 (registry+https://github.com/rust-lang/crates.io-index)",
+ "nalgebra 0.16.8 (registry+https://github.com/rust-lang/crates.io-index)",
  "ncollide3d 0.17.1 (registry+https://github.com/rust-lang/crates.io-index)",
  "noise 0.5.1 (registry+https://github.com/rust-lang/crates.io-index)",
  "nphysics3d 0.9.2 (registry+https://github.com/rust-lang/crates.io-index)",
@@ -751,7 +751,7 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 
 [[package]]
 name = "nalgebra"
-version = "0.16.7"
+version = "0.16.8"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 dependencies = [
  "alga 0.7.2 (registry+https://github.com/rust-lang/crates.io-index)",
@@ -771,7 +771,7 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 dependencies = [
  "alga 0.7.2 (registry+https://github.com/rust-lang/crates.io-index)",
  "approx 0.3.0 (registry+https://github.com/rust-lang/crates.io-index)",
- "nalgebra 0.16.7 (registry+https://github.com/rust-lang/crates.io-index)",
+ "nalgebra 0.16.8 (registry+https://github.com/rust-lang/crates.io-index)",
  "num-traits 0.2.6 (registry+https://github.com/rust-lang/crates.io-index)",
  "rand 0.5.5 (registry+https://github.com/rust-lang/crates.io-index)",
  "slab 0.4.1 (registry+https://github.com/rust-lang/crates.io-index)",
@@ -812,7 +812,7 @@ dependencies = [
  "alga 0.7.2 (registry+https://github.com/rust-lang/crates.io-index)",
  "approx 0.3.0 (registry+https://github.com/rust-lang/crates.io-index)",
  "downcast 0.9.2 (registry+https://github.com/rust-lang/crates.io-index)",
- "nalgebra 0.16.7 (registry+https://github.com/rust-lang/crates.io-index)",
+ "nalgebra 0.16.8 (registry+https://github.com/rust-lang/crates.io-index)",
  "ncollide3d 0.17.1 (registry+https://github.com/rust-lang/crates.io-index)",
  "num-traits 0.2.6 (registry+https://github.com/rust-lang/crates.io-index)",
  "slab 0.4.1 (registry+https://github.com/rust-lang/crates.io-index)",
@@ -1611,7 +1611,7 @@ dependencies = [
 "checksum memmap 0.6.2 (registry+https://github.com/rust-lang/crates.io-index)" = "e2ffa2c986de11a9df78620c01eeaaf27d94d3ff02bf81bfcca953102dd0c6ff"
 "checksum memoffset 0.2.1 (registry+https://github.com/rust-lang/crates.io-index)" = "0f9dc261e2b62d7a622bf416ea3c5245cdd5d9a7fcc428c0d06804dfce1775b3"
 "checksum mint 0.5.1 (registry+https://github.com/rust-lang/crates.io-index)" = "c9e6c29b4bb0155117ea1a61520406c975673ee71b0287323f06d1a8d69c4a7c"
-"checksum nalgebra 0.16.7 (registry+https://github.com/rust-lang/crates.io-index)" = "ded8e1412ceee76956f28b0d01e471a0952b31dd78b4752e75a16822f604dce2"
+"checksum nalgebra 0.16.8 (registry+https://github.com/rust-lang/crates.io-index)" = "a32c7df534ab70fe18fee35fce38ea6733000014fac2819518f19ed6de814d41"
 "checksum ncollide3d 0.17.1 (registry+https://github.com/rust-lang/crates.io-index)" = "6a5298614cc77f65da238c2af7c0ee5eb2d89e80a6e994c98151c9db1f704bae"
 "checksum nix 0.11.0 (registry+https://github.com/rust-lang/crates.io-index)" = "d37e713a259ff641624b6cb20e3b12b2952313ba36b6823c0f16e6cfd9e5de17"
 "checksum nodrop 0.1.12 (registry+https://github.com/rust-lang/crates.io-index)" = "9a2228dca57108069a5262f2ed8bd2e82496d2e074a06d1ccc7ce1687b6ae0a2"
