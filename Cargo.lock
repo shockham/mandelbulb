@@ -716,7 +716,7 @@ dependencies = [
 
 [[package]]
 name = "inflate"
-version = "0.4.4"
+version = "0.4.5"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 dependencies = [
  "adler32 1.0.3 (registry+https://github.com/rust-lang/crates.io-index)",
@@ -984,7 +984,7 @@ dependencies = [
  "ncollide3d 0.17.3 (registry+https://github.com/rust-lang/crates.io-index)",
  "num-traits 0.2.6 (registry+https://github.com/rust-lang/crates.io-index)",
  "slab 0.4.2 (registry+https://github.com/rust-lang/crates.io-index)",
- "stdweb 0.4.13 (registry+https://github.com/rust-lang/crates.io-index)",
+ "stdweb 0.4.14 (registry+https://github.com/rust-lang/crates.io-index)",
  "time 0.1.42 (registry+https://github.com/rust-lang/crates.io-index)",
 ]
 
@@ -1164,7 +1164,7 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 dependencies = [
  "bitflags 1.0.4 (registry+https://github.com/rust-lang/crates.io-index)",
  "deflate 0.7.19 (registry+https://github.com/rust-lang/crates.io-index)",
- "inflate 0.4.4 (registry+https://github.com/rust-lang/crates.io-index)",
+ "inflate 0.4.5 (registry+https://github.com/rust-lang/crates.io-index)",
  "num-iter 0.1.37 (registry+https://github.com/rust-lang/crates.io-index)",
 ]
 
@@ -1574,7 +1574,7 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 
 [[package]]
 name = "stdweb"
-version = "0.4.13"
+version = "0.4.14"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 dependencies = [
  "discard 1.0.4 (registry+https://github.com/rust-lang/crates.io-index)",
@@ -1582,7 +1582,7 @@ dependencies = [
  "serde 1.0.87 (registry+https://github.com/rust-lang/crates.io-index)",
  "serde_json 1.0.38 (registry+https://github.com/rust-lang/crates.io-index)",
  "stdweb-derive 0.5.1 (registry+https://github.com/rust-lang/crates.io-index)",
- "stdweb-internal-macros 0.2.5 (registry+https://github.com/rust-lang/crates.io-index)",
+ "stdweb-internal-macros 0.2.6 (registry+https://github.com/rust-lang/crates.io-index)",
  "stdweb-internal-runtime 0.1.3 (registry+https://github.com/rust-lang/crates.io-index)",
 ]
 
@@ -1600,7 +1600,7 @@ dependencies = [
 
 [[package]]
 name = "stdweb-internal-macros"
-version = "0.2.5"
+version = "0.2.6"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 dependencies = [
  "base-x 0.2.4 (registry+https://github.com/rust-lang/crates.io-index)",
@@ -1956,7 +1956,7 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 "checksum imgui-sys 0.0.21 (registry+https://github.com/rust-lang/crates.io-index)" = "3c7c53417637b6d47ed92a2679015101e50acb13f07c95180b29ccca3d4e4f93"
 "checksum impose 0.3.0 (registry+https://github.com/rust-lang/crates.io-index)" = "0376b04a2290b40f385d98f2a68c975c98d374b8b9bc54f07169bab364ec1091"
 "checksum inflate 0.3.4 (registry+https://github.com/rust-lang/crates.io-index)" = "f5f9f47468e9a76a6452271efadc88fe865a82be91fe75e6c0c57b87ccea59d4"
-"checksum inflate 0.4.4 (registry+https://github.com/rust-lang/crates.io-index)" = "84c683bde2d8413b8f1be3e459c30e4817672b6e7a31d9212b0323154e76eba7"
+"checksum inflate 0.4.5 (registry+https://github.com/rust-lang/crates.io-index)" = "1cdb29978cc5797bd8dcc8e5bf7de604891df2a8dc576973d71a281e916db2ff"
 "checksum itoa 0.4.3 (registry+https://github.com/rust-lang/crates.io-index)" = "1306f3464951f30e30d12373d31c79fbd52d236e5e896fd92f96ec7babbbe60b"
 "checksum jpeg-decoder 0.1.15 (registry+https://github.com/rust-lang/crates.io-index)" = "c8b7d43206b34b3f94ea9445174bda196e772049b9bddbc620c9d29b2d20110d"
 "checksum kernel32-sys 0.2.2 (registry+https://github.com/rust-lang/crates.io-index)" = "7507624b29483431c0ba2d82aece8ca6cdba9382bff4ddd0f7490560c056098d"
@@ -2059,9 +2059,9 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 "checksum stable_deref_trait 1.1.1 (registry+https://github.com/rust-lang/crates.io-index)" = "dba1a27d3efae4351c8051072d619e3ade2820635c3958d826bfea39d59b54c8"
 "checksum stb_truetype 0.2.6 (registry+https://github.com/rust-lang/crates.io-index)" = "69b7df505db8e81d54ff8be4693421e5b543e08214bd8d99eb761fcb4d5668ba"
 "checksum stdweb 0.1.3 (registry+https://github.com/rust-lang/crates.io-index)" = "ef5430c8e36b713e13b48a9f709cc21e046723fe44ce34587b73a830203b533e"
-"checksum stdweb 0.4.13 (registry+https://github.com/rust-lang/crates.io-index)" = "461e7f2e33670b1c33f1ea22bb2f86de6136fabd0c4d27d167ed425c231143ca"
+"checksum stdweb 0.4.14 (registry+https://github.com/rust-lang/crates.io-index)" = "5eafd45550bc406cfa179ea263ba0935da87adf220dab40e2c25c4675edc49d8"
 "checksum stdweb-derive 0.5.1 (registry+https://github.com/rust-lang/crates.io-index)" = "0e21ebd9179de08f2300a65454268a17ea3de204627458588c84319c4def3930"
-"checksum stdweb-internal-macros 0.2.5 (registry+https://github.com/rust-lang/crates.io-index)" = "432465093692af7379dcd196ce4be398c906958d91b412fff9102a66238d6f26"
+"checksum stdweb-internal-macros 0.2.6 (registry+https://github.com/rust-lang/crates.io-index)" = "1635afd059cbfac7d5b1274f0c44cec110c1e013c48e8bbc22e07e52696cf887"
 "checksum stdweb-internal-runtime 0.1.3 (registry+https://github.com/rust-lang/crates.io-index)" = "a2a2f4a2eb556337b2d1a302630bbddf989ae383c70393e89b48152b9896cbda"
 "checksum strsim 0.7.0 (registry+https://github.com/rust-lang/crates.io-index)" = "bb4f380125926a99e52bc279241539c018323fab05ad6368b56f93d9369ff550"
 "checksum syn 0.15.26 (registry+https://github.com/rust-lang/crates.io-index)" = "f92e629aa1d9c827b2bb8297046c1ccffc57c99b947a680d3ccff1f136a3bee9"
